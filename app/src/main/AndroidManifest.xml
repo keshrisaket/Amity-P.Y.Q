@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".report_bug"
+            android:theme="@style/myThemForActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".b_a_jou_mass"
+            android:exported="false"
+            android:theme="@style/myThemForActivity2" />
+        <activity
+            android:name=".m_b_a"
+            android:exported="false"
+            android:theme="@style/myThemForActivity2" />
+        <activity
+            android:name=".llb_hons"
+            android:exported="false"
+            android:theme="@style/myThemForActivity2" />
+        <activity
+            android:name=".ma_english"
+            android:exported="false"
+            android:theme="@style/myThemForActivity2" />
+        <activity
+            android:name=".ma_jour_mass_comunication"
+            android:exported="false"
+            android:theme="@style/myThemForActivity2" />
+        <activity
+            android:name=".m_com"
+            android:exported="false"
+            android:theme="@style/myThemForActivity2" />
+        <activity
+            android:name=".bba_mba_integrated"
+            android:exported="false"
+            android:theme="@style/myThemForActivity2" />
+        <activity
+            android:name=".b_a_administration"
+            android:exported="false"
+            android:theme="@style/myThemForActivity2" />
+        <activity
+            android:name=".b_b_a"
+            android:exported="false"
+            android:theme="@style/myThemForActivity2" />
+        <activity
+            android:name=".b_tec_civil"
+            android:exported="false"
+            android:theme="@style/myThemForActivity2" />
+        <activity
+            android:name=".bba_llb"
+            android:exported="false"
+            android:theme="@style/myThemForActivity2" />
+        <activity
+            android:name=".b_a_english"
+            android:exported="false"
+            android:theme="@style/myThemForActivity2" />
+        <activity
+            android:name=".b_tec_computer"
+            android:exported="false"
+            android:theme="@style/myThemForActivity2" />
+        <activity
+            android:name=".b_com"
+            android:exported="false"
+            android:theme="@style/myThemForActivity2" />
+        <activity
+            android:name=".b_c_a"
+            android:exported="false"
+            android:theme="@style/myThemForActivity2" />
+        <activity
+            android:name=".m_c_a"
+            android:exported="false"
+            android:theme="@style/myThemForActivity2" />
+        <activity
+            android:name=".Chat_activity"
+            android:exported="false"
+            android:theme="@style/myThemForActivity2" />
+        <activity
+            android:name=".Dashboard"
+            android:exported="false"
+            android:theme="@style/myThemForActivity2" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/SplashMyThem">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

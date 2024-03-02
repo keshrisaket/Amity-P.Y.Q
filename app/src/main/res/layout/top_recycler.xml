@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/_200sdp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/parentTop"
+    app:cardCornerRadius="@dimen/_10ssp"
+    app:cardUseCompatPadding="true"
+    app:cardElevation="@dimen/_10ssp"
+    app:cardBackgroundColor="@color/white"
+    android:layout_height="wrap_content">
+
+   <!-- <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/course_image"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_120sdp"
+        android:background="@color/white"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+       app:lottie_rawRes="@raw/b_a_aanimation"/>
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:orientation="vertical"
+      android:background="@color/white"
+      android:layout_marginBottom="@dimen/_5sdp"
+      android:layout_height="wrap_content">
+
+      <TextView
+          android:id="@+id/course"
+          android:layout_width="match_parent"
+          android:layout_height="@dimen/_50ssp"
+          android:text="course"
+          android:gravity="center"
+          android:textColor="@color/black"
+          android:textStyle="bold"
+          android:textSize="@dimen/_15sdp"/>
+
+     &lt;!&ndash; <Button
+          android:id="@+id/details"
+          android:layout_width="120dp"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:layout_marginBottom="@dimen/_8ssp"
+          android:background="@color/white"
+          android:backgroundTint="#5BFBFB"
+          android:text="P.Y.Q"
+
+           android:id="@+id/course"
+
+          android:textSize="@dimen/_15sdp"
+          android:textStyle="bold" />&ndash;&gt;
+  </LinearLayout>-->
+
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_90sdp"
+        android:id="@+id/course_image"
+        android:background="@color/white"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/b_a_aanimation"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_marginTop="@dimen/_90ssp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="course"
+            android:id="@+id/course"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="@dimen/_15sdp"/>
+
+    </LinearLayout>
+
+
+
+
+
+
+</androidx.cardview.widget.CardView>
